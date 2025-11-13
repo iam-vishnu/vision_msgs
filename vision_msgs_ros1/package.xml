@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>vision_msgs</name>
+  <version>0.0.2</version>
+  <description>Messages for interfacing with various computer vision pipelines, such as object detectors.</description>
+
+  <maintainer email="support@example.com">Vision Msgs Maintainer</maintainer>
+  <license>Apache License 2.0</license>
+
+  <url type="website">https://github.com/ros-perception/vision_msgs</url>
+  <url type="repository">https://github.com/ros-perception/vision_msgs</url>
+  <url type="bugtracker">https://github.com/ros-perception/vision_msgs/issues</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>std_msgs</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>message_generation</build_depend>
+
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>message_runtime</exec_depend>
+
+</package>
